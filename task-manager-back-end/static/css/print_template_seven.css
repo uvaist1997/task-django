@@ -1,0 +1,293 @@
+/* trunk-ignore(prettier) */
+* {
+    font-family: "Poppins";
+  }
+  body {
+    font-family: "Poppins";
+    background: #fff;
+    margin: 0;
+    /* width: 210mm;
+    height: 297mm; */
+    height: auto;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+  }
+  .header {
+    padding: 0 0.2in 0 0.2in;
+    height: 0.5in;
+  }
+  .body {
+    padding: 0 0.2in 0 0.2in;
+  }
+  .footer {
+    padding: 0 0.2in 0 0.2in;
+    height: 0.5in;
+  }
+  .empty {
+    display: table-cell;
+    content: " ";
+    width: 100%;
+  }
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+  table {
+    width: 100%;
+  }
+  .organisation-name {
+    font-size: 17pt;
+  }
+  .image-container {
+    width: 85px;
+    margin-right: 10px;
+  }
+  .image-container img {
+    width: 100%;
+  }
+  .image-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+  .organisation-info{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .organisation-info span{
+    margin-bottom: 3px;
+  }
+  .organisation-other-info{
+    font-size: 9pt;
+  }
+  .address{
+    width: 170px;
+  }
+  
+  .organisation-name {
+    text-transform: capitalize;
+    font-size: 20pt;
+  }
+  .invoice-name {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  .invoice-details {
+    text-align: right;
+    vertical-align: baseline;
+  }
+  .invoice-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .invoice-info span {
+    margin-bottom: 5px;
+    font-size: 9pt;
+  }
+  .invoice-name-container {
+    margin-bottom: 5px;
+    padding-right:10px;
+  }
+  .organization-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .organization-info span {
+    font-size: 9pt;
+    margin-bottom: 5px;
+  }
+  .item-heading {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0 10px;
+    margin-left: 10px;
+    border-top:1px solid;
+  }
+  .table-heading {
+  }
+  .table-heading tr{
+    border: 1px solid;
+    color:rgb(0, 0, 0) !important;
+  }
+  .table-heading tr td {
+    color: #000000;
+    border: 1px solid;
+    
+    font-size: 9pt;
+    vertical-align: baseline;
+    line-height: 14px;
+  }
+  .voucher-group {
+    font-size: 9pt;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  .voucher-label {
+    font-weight: bold;
+  }
+  .voucher-info {
+    width: 225px;
+    margin-left: auto;
+  }
+  .item-table {
+    border-collapse: collapse;
+  }
+  .item-table thead tr td {
+    padding: 2px 2px 2px 2px;
+    white-space: nowrap;
+  }
+  .item-table tbody tr{
+      border-bottom: 1px solid;
+  }
+  .item-table tbody tr td {
+    border: 1px solid;
+    padding: 0px 2px 0px 2px;
+    font-size: 9pt;
+    vertical-align: baseline;
+  }
+  .product-name{
+    font-family: "Poppins";
+  }
+  .payment-details .heading {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+  .payment-details .heading {
+    font-size: 9pt;
+  }
+  .bottom-group {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+  }
+  .bottom-group tr td {
+    padding-bottom: 0px;
+    font-size: 9pt;
+  }
+  
+  .payment-details {
+    padding-top: 10px;
+    width: 60%;
+  }
+  .note-details {
+    padding-top: 10px;
+  
+  }
+  .note-details table{
+  }
+  .note-details tr td {
+    padding-bottom: 0px;
+    font-size: 9pt;
+    padding-left: 10px;
+  }
+  .note-details .heading {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+  }
+  .note-details .heading {
+    font-size: 9pt;
+  }
+  .amount-group {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35%;
+    display: flex;
+    align-items: flex-end;
+    border-left: 1px solid;
+  }
+  .grand-total {
+    font-weight: bold;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  .amount-in-words {
+    text-transform: capitalize;
+    display: flex;
+    padding-left: 10px;
+  }
+  .amount-in-words table {
+  }
+  .amount-in-words table tr td {
+    font-size: 9pt;
+    font-weight: bold;
+  }
+  .amount-in-words table tr td.heading {
+    color: #585858;
+    padding: 0px 0 5px;
+  }
+  .terms-and-conditions label {
+    border-bottom: 1px solid;
+    font-size: 9pt;
+
+  }
+  .bottom-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .terms-and-conditions p {
+    font-family: "Poppins";
+    font-size: 8pt;
+    line-height: 13px;
+  }
+  .terms-and-conditions {
+    width: 50%;
+    padding-left: 10px;
+  }
+  .signature {
+    font-size: 9pt;
+    display: flex;
+    align-items: flex-end;
+    min-height: 80px;
+  }
+  .product-details span{
+    display: block;
+  }
+  .hide{
+      visibility: hidden;
+  }
+  #wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border: 1px solid black;
+  }
+  .header td{
+    border: 1px solid;
+    padding:10px;
+    vertical-align: baseline;
+  }
+  .shipping-address{
+    vertical-align:baseline;
+  }
+  .header-table{
+    border-collapse:collapse;
+  }
+  .top-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .signature{
+      padding-right: 10px;
+  }
+  td.note p{
+    margin-top:0;
+
+  }
+  .note-details tr td:first-child{
+      padding-bottom: 0;
+  }

@@ -1,0 +1,13 @@
+*.pyc 
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+.idea
+
+# media
+/media
+
+# misc
+.vscode
+.trunk
+

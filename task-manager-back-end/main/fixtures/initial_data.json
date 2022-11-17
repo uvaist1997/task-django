@@ -1,0 +1,22 @@
+[
+  {
+    "model": "expense_tables.Accounts",
+    "pk": 1,
+    "fields": {
+      "Type": "Cash",
+      "Name": "Cash",
+      "Color": "0xffB57119",
+      "AccountType": "Wallet"
+    }
+  },
+  {
+    "model": "expense_tables.Accounts",
+    "pk": 2,
+    "fields": {
+      "Type": "Bank",
+      "Name": "Bank",
+      "Color": "0xff00F208",
+      "AccountType": "Wallet"
+    }
+  }
+]

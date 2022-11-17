@@ -1,0 +1,346 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	outline: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+header, section, article, aside, nav, footer, address {
+	display: block;
+}
+body {
+	font-family: 'open_sansregular',Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #333;
+	overflow-x: hidden;
+	min-width: 320px;
+}
+input,textarea,select{
+	font-family: 'open_sansregular',Arial, Helvetica, sans-serif;
+}
+a{
+	color: #333;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: 'open_sanslight';
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+.wrapper-2 {
+	width: 95%;
+	margin: 0 auto;
+	max-width:1280px !important;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html body section#spot-light{
+	background: url("../../images/web/spotlight.png");
+	background-size: cover;
+}
+html body section#spot-light div.container{
+	padding: 10% 0;
+}
+html body section#buy div.container div.row div.col div.card div.card-body div div.underline{
+	height: 3px;
+	width: 45px;
+	border-radius: 50px;
+}
+html body section#buy div.container div.row.row-cols-1 div.col.mb-4 div.card.h-100.shadow.bg-white.rounded div.card-body.rounded div p{
+	font-size: 12px;
+}
+html body section#buy div.container div.row div.col div.card div.card-body button{
+	font-size: 12px;
+	width: 90px;
+	padding: 3px 0;
+	opacity: 80%;
+	border-radius: 3px;
+}
+html body section#buy div.container div.row.row-cols-1 div.col.mb-4 div.card.h-100.shadow.bg-white.rounded div.card-body.rounded div h3{
+	font-size: 20px;
+}
+html body section#buy div.container div.row.row-cols-1 div.col.mb-4 div.card.h-100.shadow.bg-white.rounded div.card-body.rounded div.money span.d-block.text-secondary{
+	text-decoration: line-through;
+}
+html body section#buy div.container div.row.row-cols-1 div.col.mb-4 div.card.h-100.shadow.bg-white.rounded div.card-body.rounded div.money span{
+	font-size: 20px;
+}
+html body section#buy div.container h2{
+	font-size: 25px;
+}
+html body section#buy div.container div.row div.col div.card div.card-body.rounded{
+
+}
+html body section#buy div.container h2{
+	text-align: right;
+	padding-right: 6%;
+}
+html body section#buy.py-4{
+	background: url("../../images/web/mobile.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+html body section#business div.container div.row div.col div.card div.card-body ul.list-group li::before{
+	content: "\2022";
+	color: #17a2b8;
+	font-weight: bold;
+	display: inline-block; 
+	width: 1em;
+	margin-left: -1em;
+	font-size: 20px;
+}
+html body section#business div.container.py-5 div.row div.col.pr-0 div.card.rounded-0.bg-light.h-100.p-3.shadow div.card-body ul.list-group.list-group-flush.bg-light li{
+	font-size: 14px;
+	padding-top: 0;
+}
+html body section#business div.container.py-5 div.row div.col.pr-0 div.card.rounded-0.bg-light.h-100.p-3.shadow div.card-body button.btn.btn-info.font-weight-bold.px-4{
+}
+html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute{
+	top: 0;
+	bottom: 0;
+	right: -210px;
+	z-index: 1;
+	width: 120%;
+	height: 50%;
+	margin: auto 0;
+}
+html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute div.card-body h3.text-info::before{
+	content: "";
+	background: url("../../images/web/quote.svg");
+	width: 50px; 
+    height: 50px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+	position: absolute;
+	left: 40px;
+	top: 25px;
+
+}
+html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute div.card-body h3.text-info{
+	list-style-position: outside;
+}
+html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute div.card-body{
+	padding: 5%;
+	padding-left: 9%;
+}
+html body footer#footer div.container div.card-group div.card.border-0 img.card-img-top.img-fluid{
+	width: 200px;
+}
+html body footer#footer.shadow-lg.pt-4 div.container div.card-group div.card.border-0 div.card-body h3.card-title.text-secondary{
+	font-size: 35px;
+}
+html body footer#footer.shadow-lg.pt-4, html body footer#footer div.card-body{
+	background: #f6f6f6;
+}
+html body footer#footer input{
+	background: #e7f0f6;
+}
+html body footer#footer.shadow-lg.pt-4 div.container div.card-group div.card.border-0 div.card-body ul.nav.flex-column li.nav-item a.nav-link{
+	font-size: 14px;
+}
+html body footer#footer.shadow-lg.pt-4 div.container div.card-group div.card.border-0 div.card-body h5.card-title.text-secondary{
+	font-size: 35px;
+}
+html body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col nav.nav.d-flex.justify-content-end a.icon{
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 20px;
+}
+body header section#header div.container nav.navbar.navbar-expand-lg.navbar-light button.navbar-toggler span.navbar-toggler-icon{
+	filter: invert(75%);
+}
+html body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col nav.nav a.nav-link.text-secondary:first-child{
+	border-right: 2px solid #3b98e1;
+}
+html body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col nav.nav.d-flex.justify-content-end span.text-secondary.d-flex.align-items-center a.nav-link.d-inline.text-secondary.pl-2{
+	border: none;
+}
+
+/*responsive start here*/
+
+
+
+@media all and (max-width: 1199px) {
+	html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute {
+	    top: 474px;
+	    bottom: 0;
+	    right: 0;
+	    z-index: 1;
+	    width: 100%;
+	    height: 134px;
+	    margin: auto 0;
+	}
+	html body section#buy.py-4 {
+    	background: none;
+	}
+	html body section#buy.py-4 div.container h2{
+		text-align: left;
+	}
+}
+@media all and (max-width: 991px) {
+	html body section#buy.py-4 div.container h2{
+		text-align: left;
+	}
+	html body header section#header div.container nav.navbar.navbar-expand-lg.navbar-light div#navbarSupportedContent.navbar-collapse.collapse.show{
+		text-align: center !important;
+	}
+	html body header section#header div.container nav.navbar.navbar-expand-lg.navbar-light div#navbarSupportedContent.navbar-collapse.collapse.show ul.navbar-nav{
+		align-items: center;
+	}
+	html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute {
+	    top: 332px;
+	    bottom: 0;
+	    right: 0;
+	    z-index: 1;
+	    width: 100%;
+	    height: 134px;
+	    margin: auto 0;
+	}
+	html body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col nav.nav.d-flex.justify-content-end a.icon {
+	    font-size: 17px;
+	}
+}
+@media all and (max-width: 768px) {
+	html body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col nav.nav.d-flex.justify-content-end a.icon {
+	    font-size: 17px;
+	}
+}
+@media all and (max-width: 767px) {
+	body section#buy.py-4{
+		background: none !important;
+	}
+	html body section#buy.py-4 div.container h2{
+		text-align: left !important;
+	}
+	html.ismobile body section#buy.py-4 div.container h2{
+		font-size: 18px;
+	}
+	html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute {
+	    top: 280px;
+	    bottom: 0;
+	    right: 0;
+	    z-index: 1;
+	    width: 100%;
+	    height: 134px;
+	    margin: auto 0;
+	}
+	html body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col nav.nav a.nav-link.text-secondary:first-child{
+		border-right: none;
+	}
+}
+@media all and (max-width: 505px) {
+	html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute h3{
+		font-size: 20px;
+	}
+	html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute h3::before{
+		background-size: 18px !important;
+	}
+}
+@media all and (max-width: 480px) {
+	html body section#spot-light div.container h1.text-light{
+		font-size: 30px;
+	}
+	html body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col{
+		min-width: 100%;
+	}
+	html body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col nav.nav{
+		display: flex;
+		justify-content: center !important;
+	}
+	body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col{
+		font-size: 12px;
+	}
+	body footer#footer.shadow-lg.pt-4 div.container div.bottom div.row div.col a.icon{
+		font-size: 16px;
+	}
+	html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute h3{
+		font-size: 15px;
+	}
+	html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute div.card-body h3.text-info::before {
+	    content: "";
+	    background: url("../../images/web/quote.svg");
+	        background-repeat: repeat;
+	        background-size: auto;
+	    width: 50px;
+	    height: 50px;
+	    background-size: 30px;
+	    background-repeat: no-repeat;
+	    position: absolute;
+	    left: 28px;
+	    top: 18px;
+	}
+	html body section#quote div.container div.row.position-relative div.col.pr-0 div.card.rounded-0.bg-light.p-3.shadow.position-absolute {
+	    top: 223px;
+	    bottom: 0;
+	    right: 0;
+	    z-index: 1;
+	    width: 100%;
+	    height: 96px;
+	    margin: auto 0;
+	}
+}

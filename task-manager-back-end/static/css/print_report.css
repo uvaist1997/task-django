@@ -1,0 +1,159 @@
+* {
+  font-family: "Poppins";
+}
+body {
+  font-family: "Poppins";
+  background: #fff;
+  margin: 0;
+  /* width: 210mm;
+    height: 297mm; */
+  height: auto;
+  /* border: 1px solid #000; */
+  margin: 0 auto;
+}
+.header {
+  padding: 0 0.2in 0 0.2in;
+  height: 0.5in;
+}
+.body {
+  padding: 0 0.2in 0 0.2in;
+}
+.footer {
+  padding: 0 0.2in 0 0.2in;
+  height: 0.5in;
+}
+.empty {
+  display: table-cell;
+  content: " ";
+  width: 100%;
+}
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+table {
+  width: 100%;
+}
+.organisation-name {
+  font-size: 17pt;
+}
+.image-container {
+  width: 85px;
+  margin-right: 10px;
+}
+.image-container img {
+  width: 100%;
+}
+.image-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.organisation-info {
+  display: flex;
+  flex-direction: column;
+}
+.organisation-info span {
+  margin-bottom: 3px;
+}
+span.date {
+  display: block;
+  font-weight: 900;
+}
+.organisation-other-info {
+  font-size: 9pt;
+}
+.address {
+  width: 260px;
+}
+
+.organisation-name {
+  text-transform: capitalize;
+  font-size: 20pt;
+}
+.invoice-name {
+  font-size: 25pt;
+  font-weight: bold;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.invoice-details {
+  text-align: right;
+  vertical-align: baseline;
+}
+.invoice-info {
+  display: flex;
+  flex-direction: column;
+}
+.invoice-info span {
+  margin-bottom: 5px;
+  font-size: 9pt;
+}
+.invoice-name-container {
+  margin-bottom: 5px;
+}
+.organization-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.organization-info span {
+  font-size: 9pt;
+  margin-bottom: 5px;
+}
+.product-name {
+  font-family: "Poppins";
+}
+
+.item-table {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+.item-table thead tr td {
+  padding: 5px;
+  white-space: nowrap;
+}
+.item-heading {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+.item-table tbody tr td {
+  border: 1px solid #000000;
+  padding: 5px;
+  font-size: 9pt;
+  vertical-align: baseline;
+}
+.table-heading {
+  box-shadow: 0px 1px 0px #8fb5d7;
+}
+.table-heading tr td {
+  color: #000000;
+  font-weight: bold;
+  border: 2px solid #000000;
+  font-size: 9pt;
+  vertical-align: baseline;
+  line-height: 14px;
+}
+.item-table tr.all-total {
+  color: #000000;
+  font-weight: bold;
+  border-top: 1px solid #0058a5;
+  border-bottom: 1px solid #0058a5;
+  font-size: 9pt;
+  vertical-align: baseline;
+}
+.right {
+  text-align: right;
+}
+.item-table td.sub-head {
+  font-size: 14pt;
+  font-weight: bolder;
+}
+.item-table .border-bottom {
+  border-bottom: 1px solid #0058a5 !important;
+}
+.item-table .totla-bold {
+  font-weight: bolder;
+  font-size: 12pt;
+}

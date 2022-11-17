@@ -1,0 +1,241 @@
+* {
+  font-family: "Poppins";
+}
+body {
+  font-family: "Poppins";
+  background: #fff;
+  margin: 0;
+  /* width: 210mm;
+  height: 297mm; */
+  height: auto;
+  /* border: 1px solid #000; */
+  margin: 0 auto;
+}
+.header {
+  padding: 0 0.2in 0 0.2in;
+  height: 0.5in;
+}
+.body {
+  padding: 0 0.2in 0 0.2in;
+}
+.footer {
+  padding: 0 0.2in 0 0.2in;
+  height: 0.5in;
+}
+.empty {
+  display: table-cell;
+  content: " ";
+  width: 100%;
+}
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+table {
+  width: 100%;
+}
+.organisation-name {
+  font-size: 17pt;
+}
+.image-container {
+  width: 85px;
+  margin-right: 10px;
+}
+.image-container img {
+  width: 100%;
+}
+.image-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.organisation-info{
+  display: flex;
+  flex-direction: column;
+
+}
+.organisation-info span{
+  margin-bottom: 3px;
+}
+.organisation-other-info{
+  font-size: 9pt;
+}
+.address{
+  width: 265px;
+}
+
+.organisation-name {
+  text-transform: capitalize;
+  font-size: 20pt;
+}
+.invoice-name {
+  font-size: 25pt;
+  font-weight: bold;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.invoice-details {
+  text-align: right;
+  vertical-align: baseline;
+}
+.invoice-info {
+  display: flex;
+  flex-direction: column;
+}
+.invoice-info span {
+  margin-bottom: 5px;
+  font-size: 9pt;
+}
+.invoice-name-container {
+  margin-bottom: 5px;
+}
+.organization-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.organization-info span {
+  font-size: 9pt;
+  margin-bottom: 5px;
+}
+.item-heading {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+.table-heading {
+  box-shadow: 0px 1px 0px #8fb5d7;
+}
+.table-heading tr{
+
+  color:rgb(0, 0, 0) !important;
+}
+.table-heading tr td {
+  color: #000000;
+  
+  font-size: 9pt;
+  vertical-align: baseline;
+  line-height: 14px;
+}
+.voucher-group {
+  font-size: 9pt;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.voucher-label {
+  font-weight: bold;
+}
+.voucher-info {
+  width: 195px;
+  margin-left: auto;
+}
+.item-table {
+  margin-bottom: 5px;
+  border-collapse: collapse;
+}
+.item-table thead tr td {
+  padding: 2px 2px 2px 2px;
+  white-space: nowrap;
+}
+
+.item-table tbody tr td {
+  padding: 0px 2px 0px 2px;
+  font-size: 9pt;
+  vertical-align: baseline;
+}
+.product-name{
+  font-family: "Poppins";
+}
+.payment-details .heading {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.payment-details .heading {
+  font-size: 9pt;
+}
+.bottom-group {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-group tr td {
+  padding-bottom: 0px;
+  font-size: 9pt;
+}
+
+.payment-details {
+  padding-top: 10px;
+  width: 35%;
+}
+.note-details {
+  padding-top: 10px;
+  width: 50%;
+}
+.note-details tr td {
+  padding-bottom: 0px;
+  font-size: 9pt;
+}
+.note-details .heading {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.note-details .heading {
+  font-size: 9pt;
+}
+.amount-group {
+  border-top: 1px solid #8fb5d7;
+  border-bottom: 1px solid #8fb5d7;
+  padding-top: 10px;
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+}
+.grand-total {
+  font-weight: bold;
+}
+
+.right {
+  text-align: right;
+}
+.amount-in-words {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: flex-end;
+}
+.amount-in-words table {
+  width: 30%;
+}
+.amount-in-words table tr td {
+  font-size: 9pt;
+  font-weight: bold;
+}
+.amount-in-words table tr td.heading {
+  color: #585858;
+  padding: 0px 0 5px;
+}
+.terms-and-conditions label {
+  border-bottom: 1px solid;
+  font-size: 9pt;
+}
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.terms-and-conditions p {
+  font-size: 9pt;
+}
+.terms-and-conditions {
+  width: 50%;
+}
+.signature {
+  font-size: 9pt;
+  display: flex;
+  align-items: flex-end;
+  min-height: 80px;
+}
+.product-details span{
+  display: block;
+}
